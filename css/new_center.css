@@ -1,0 +1,37 @@
+/* 广告大图CSS */
+.banner_new{
+    background-image: url(../img/新闻中心大图.png);
+    height: 400px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.banner_new img:nth-of-type(2){
+    position: absolute;
+    left: 629px;
+    top: 177px;
+}
+
+ /* 新闻内容  */
+.new{
+    font-size: 12px;
+    color: #494949;
+}
+.new h2{
+    font-size: 20px;
+    color: #333333;
+    line-height: 94px;
+    text-align: center;
+}
+.new h3{
+    font-size: 12px;
+    margin-bottom: 28px;
+}
+.new img{
+    margin-bottom: 26px;
+}
+.new li{
+    line-height: 30px;
+    margin-bottom: 13px;
+    text-indent: 2em;
+}

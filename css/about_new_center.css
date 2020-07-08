@@ -1,0 +1,56 @@
+/* 广告大图 */
+.banner_new_center{
+    height: 400px;
+    background-image: url(../img/新闻中心大图.png);
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.banner_new_center img{
+    position: absolute;
+    left: 629px;
+    top: 177px;
+}
+
+/* 页面主体内容CSS */
+
+/* .about-new-content-center{
+
+}
+.about-new-content-center ul{
+
+} */
+.about-new-content-center ul li{
+    height: 108px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    padding-top: 30px;
+    padding-left: 16px;
+}
+.about-new-content-center ul li span{
+    border-right: 1px solid #f2f2f2;
+    float: left;
+    margin-right: 18px;
+}
+.about-new-content-center ul li h2{
+    margin-right: 13px;
+    font-size: 36px;
+    color: #866961;
+}
+.about-new-content-center ul li span span{
+    border-right: none;
+    font-size: 10px;
+    color: #a7a7a7;
+    margin-left: 8px;
+}
+.about-new-content-center ul li h3{
+    line-height: 35px;
+    font-size: 12px;
+    color: #866961;
+}
+.about-new-content-center ul li p{
+    font-size: 12px;
+    color: #a7a7a7;
+    line-height: 35px;
+
+}

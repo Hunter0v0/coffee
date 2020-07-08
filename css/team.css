@@ -1,0 +1,126 @@
+/* 广告大图CSS */
+.team{
+    background-image: url(../img/团队介绍大图.png);
+    height: 400px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.team img:nth-of-type(2){
+    position: absolute;
+    left: 629px;
+    top: 177px;
+} 
+
+
+/* 团队人员介绍CSS */
+.presentation_1{
+    overflow: hidden;
+    color: #999999;
+    position: relative;
+}
+.presentation_1 img:nth-of-type(1){
+    float: left;
+    margin-top: 27px;
+    margin-right: 27px;
+}
+.presentation_1 h2,h3{
+    display: inline-block;
+    color: #333333;
+    margin-top: 30px;
+}
+.presentation_1 h2{
+    font-size: 16px;
+}
+.presentation_1 h3{
+    font-size: 11px;
+}
+.presentation_1 span:nth-of-type(1){
+    font-size: 12px;
+    color: #999999;
+    line-height: 21px;
+    margin-bottom: 14px;
+    display: block;
+}
+
+.presentation_1 p{
+    font-size: 10px;
+    line-height: 25px;
+    text-indent: 2em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.presentation_1 ul{
+    position: absolute;
+    left: 402px;
+    bottom: 0px;
+} 
+
+.presentation_1 .cl{
+    position: absolute;
+    left: 547px;
+    bottom: 0px;
+    
+}
+.presentation_1 .cl h3{
+    color: #333333;
+}
+.presentation_1 .ave h3{
+    color: #333333;
+}
+.presentation_1 .tl h3{
+    color: #333333;
+}
+.presentation_1 .ave{
+    position: absolute;
+    left: 692px;
+    bottom: 0px;
+} 
+.presentation_1 .tl{
+    position: absolute;
+    left: 837px;
+    bottom: 0px;
+}
+
+.presentation_1 .cl img{
+    display: none;  
+}
+ /* .presentation_1 .ave img{
+    display: none;
+}  */
+.presentation_1 .tl img{
+    display: none;
+}
+
+.presentation_1 .cl div{
+    border-top: 1px solid #d5d5d5;
+}
+/* .presentation_1 .ave div{
+    border-top: 1px solid #d5d5d5;
+}  */
+.presentation_1 .tl div{
+    border-top: 1px solid #d5d5d5;
+}
+
+
+.presentation_1 ul li div{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 145px;
+    height: 72px;
+    text-align: center;
+
+}
+.presentation_1 ul li div h3{
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 7px;
+    line-height: 30px;
+}
+.presentation_1 ul li div h4{
+    font-size: 11px;
+    color: #949494;
+
+}
+

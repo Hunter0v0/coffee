@@ -1,0 +1,215 @@
+/* 头部广告栏CSS样式 */
+.bannder{
+    height: 597px;
+}
+.bannder img{
+    height: 100%;
+}
+
+/* 公司简介CSS样式 */
+.about{
+    margin-top: 59px;
+}
+.about .head-about{
+    text-align: center;
+    margin-bottom: 37px;
+}
+.about .head-about h2{
+    margin-bottom: 9px;
+    color: #333333;
+}
+.about .head-about span{
+    font-size: 12px;
+    color: #747474;
+    margin-bottom: 8px;
+}
+.about .content-about img{
+    margin-right: 30px;
+}
+.about .content-about h2{
+    line-height: 38px;
+    margin-bottom: 46px;
+}
+.about .content-about img{
+    margin-bottom: 34px;
+}
+.about .content-about p{
+    font-size: 12px;
+    line-height: 30px;
+    color: #393438;
+    text-indent: 2em;
+    margin-bottom: 26px;
+}
+
+
+/* 咖啡广告标语CSS样式 */
+.kfby{
+    margin-top: 190px;
+    background-image: url(../img/咖啡广告.png);
+    height: 120px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.kfby span{
+    line-height: 120px;
+    font-size: 24px;
+    color: #fefefe;  
+    margin-right: 14px;
+}
+
+/* 产品介绍CSS */
+.product .head-product{
+    text-align: center;
+    margin-bottom: 37px;
+}
+.product .head-product h2{
+    margin-bottom: 9px;
+    color: #333333;
+}
+.product .head-product span{
+    font-size: 12px;
+    color: #747474;
+    margin-bottom: 8px;
+}
+
+.kfjs{
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 70px;
+    
+}
+.kfjs .ntkf,.kbjn,.mkkf{
+    width: 328px;
+}
+.kfjs h2{
+   line-height: 64px;
+   font-size: 24px;
+} 
+
+
+/* 公司团队介绍CSS */
+.team{
+    padding-top: 30px;
+    background-image: url(../img/团队简介背景图.png);
+    padding-bottom: 130px;
+    margin-bottom: 40px;
+}
+.team .title{
+    text-align: center;
+    margin-bottom: 42px;
+}
+.team .title h2{
+    margin-bottom: 9px;
+    color: #333333;
+}
+.team .title span{
+    font-size: 12px;
+    color: #747474;
+    margin-bottom: 8px;
+}
+
+.team .rwjj{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 58px;
+}
+.team .rwjj .cl,.ave,.tl,.jsd{
+    width: 245px;
+    flex: 1;
+}
+.team .rwjj .jsd span{
+    margin-top: -4px;
+    display: block;
+    width: 243px;
+    background-color: #3c3c3c;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -5px;
+    height: 102px;
+}
+.team .rwjj .jsd h3{
+    font-size: 18px;
+    line-height: 30px;
+}
+.team .rwjj .jsd p{
+    font-size: 12px;
+    line-height: 20px;
+}
+.team .rwjj span{
+    height: 102px;
+    margin-top: -4px;
+    display: block;
+    width: 243px;
+    font-size: 18px;
+    text-align: center;
+    border: solid 1px #999999;
+    border-top: none;
+    color: #333333;
+    overflow: hidden;
+}
+.team .rwjj span h3{
+    font-size: 18px;
+    margin-top: 28px;
+}
+
+
+/* 联系我们CSS */
+
+
+.contact .contact-title{
+    text-align: center;
+    margin-bottom: 36px;
+}
+.contact .contact-title h2{
+    margin-bottom: 9px;
+    color: #333333;
+}
+.contact .contact-title span{
+    font-size: 12px;
+    color: #747474;
+    margin-bottom: 8px;
+}
+
+.contact .contact-content .map img{
+    margin-right: 58px;
+}
+.contact .contact-content ul{
+    display: flex;
+    margin-bottom: 15px;
+}
+.contact .contact-content ul img{
+    margin-right: 20px;
+}
+.contact .contact-content ul li h3{
+    font-size: 19px;
+    color: #494949;
+    line-height: 28px;
+}
+.contact .contact-content ul li p:nth-of-type(1){
+    font-size: 11px;
+    color: #999999;
+    line-height: 23px;
+}
+.contact .contact-content ul li p:nth-of-type(2){
+    font-size: 12px;
+    color: #333333;
+    line-height: 25px;
+}
+.contact .contact-content ul li p:nth-of-type(3){
+    font-size: 13px;
+    color: #999999;
+    line-height: 26px;
+}
+
+#allmap{
+    width:662px;
+    height:344px;
+    margin-right: 50px;
+    float: left;
+}
+
+
+
